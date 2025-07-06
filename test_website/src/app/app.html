@@ -1,0 +1,22 @@
+<nav class="navbar">
+  <div class="nav-content">
+    <ul class="nav-links">
+      <li><a routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active-link">Contact</a></li>
+      <li><a routerLink="/projects" routerLinkActive="active-link">Projects</a></li>
+      <li><a routerLink="/devbot" routerLinkActive="active-link">devBot</a></li>
+      <li><a routerLink="/resume" routerLinkActive="active-link" class="pulse-link">Resume</a></li>
+    </ul>
+    <ul class="nav-icons">
+      <li><a href="https://linkedin.com/in/yourprofile" target="_blank"><img src="/assets/icons/icon_linkedin.png" alt="LinkedIn" /></a></li>
+      <li><a href="https://github.com/yourprofile" target="_blank"><img src="/assets/icons/icon_github.png" alt="GitHub" /></a></li>
+      <li><a href="tel:+1234567890"><img src="/assets/icons/icon_handshake.png" alt="Phone" /></a></li>
+    </ul>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<nav class="footer">
+
+</nav>

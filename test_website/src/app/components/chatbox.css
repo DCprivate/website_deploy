@@ -1,0 +1,31 @@
+.chat-container {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 2rem auto;
+  color: white;
+}
+
+.chat-messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  padding-right: 0.5rem;
+}
+
+.message {
+  background: #1a1a2e;
+  margin: 0.25rem 0;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid white;
+  background: #222;
+  color: white;
+}
